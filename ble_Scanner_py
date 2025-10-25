@@ -8,6 +8,6 @@ async def main():
         print(device.address)
         print(device.details)
         #print(device.metadata)
-        print(device.rssi)
+        #print(device.rssi)
 
 asyncio.run(main())
