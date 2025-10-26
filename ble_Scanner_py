@@ -40,7 +40,7 @@ async def main():
                             for descrip in c.descriptors:
                                 print(f'\t\t\t{descrip}')
 
-        except Exception as e:
+            except Exception as e:
                 print(f"Could not connect to device with info: {device}")
                 print(f"Error: {e}")
 
