@@ -12,7 +12,7 @@ async def main():
             print(f"Address: {device.address}")
             print(f"Details: {device.details}")
             #print(f"Metadata: {device.metadata}")
-            print(f"RSSI: {device.rssi}")
+            #print(f"RSSI: {device.rssi}")
         
     for device in devices:
         try:
